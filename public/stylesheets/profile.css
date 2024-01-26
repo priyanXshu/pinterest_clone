@@ -38,12 +38,13 @@ body {
 }
 
 .name {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
+    font-weight: 700;
 }
 
 .username {
-    font-size: 14px;
+    font-size: 13px;
     color: #777;
     margin: 7px 0;
 }
@@ -51,6 +52,14 @@ body {
 .tagline, .description {
     color: #555;
     margin: 7px 0;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: start;
 }
 
 .button {
@@ -67,9 +76,3 @@ body {
     background-color: #df0812;
 }
 
-.container {
-    width: 200px;
-    /* position: absolute;
-    display: flex; */
-    padding: 10px 10px;
-}
